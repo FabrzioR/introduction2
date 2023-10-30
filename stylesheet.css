@@ -1,0 +1,221 @@
+
+
+.introduction {
+     margin: 0;
+    height: 100vh;
+    width: 100%; 
+    background-color: #FFF5E0;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+
+.intro {
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+
+
+
+#fitz {
+    width: 500px;
+    height: 400px;
+    align-self: center;
+}
+
+.name {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #FF6969
+
+}
+.something {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #FF6969;
+    
+    
+}
+a {
+    text-decoration: underline;
+
+}
+
+
+.sun {
+    align-self: flex-end;
+    order:-1
+   
+}
+.cloud {
+
+    align-self: start;
+    order:
+    
+}
+
+
+
+
+
+/* PRESENTATION */
+
+
+
+.second {
+    height: 100vh;
+    width: 100%;
+
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentation {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#me {
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.hello {
+    font-family: sans-serif;
+    font-size: 3rem;
+    color: #FF6969;
+    margin-top: 40px;
+
+}
+.some-text {
+    width: 400px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* SKILLS SECTION */
+
+.skills {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid-container {
+    width: 600px;
+    display: grid;
+    
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 200px 200px;
+    grid-auto-rows: 0px;
+
+    color: #141E46;
+    gap: 10px;
+    padding: 10px;
+    text-align: left;
+    
+
+}
+
+.skill { 
+    font-family: sans-serif;
+    color:#FF6969;
+    font-size: 3rem;
+    font-weight:400;
+}
+.one {
+    grid-area: 1 / 1;
+
+}
+
+.two {
+    
+    grid: 1/2;
+}
+
+.three {
+    grid-area: 2 /1;
+
+}
+
+.titles {
+    font-family: sans-serif;
+    color:#FF6969;
+    font-size: 1.5rem;
+    font-weight:600;
+}
+
+/* GET IN TOUCH SECTION */
+
+.contact {
+    height: 70vh;
+    width: 100%;
+
+
+}
+
+.touch {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.getin {
+    font-family: sans-serif;
+    color:#FF6969;
+    font-size: 3rem;
+    font-weight:400;
+
+}
+
+.btn {
+    background-color: #FF6969;
+}
+
+/* FOOTER SECTION  */
+
+.fifth {
+    height: 20vh;
+    width: 100%;
+    background-color: #C70039;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
